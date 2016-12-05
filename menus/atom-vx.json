@@ -11,16 +11,12 @@
         "label": "VX",
         "submenu": [
           {
-            "label": "VX controller add",
-            "command": "git-plus-context:add"
+            "label": "VX Controller Add",
+            "command": "vx:addController"
           },
           {
-            "label": "VX directive add",
-            "command": "git-plus-context:add-and-commit"
-          },
-          {
-            "label": "VX service add",
-            "command": "git-plus-context:checkout-file"
+            "label": "VX Directive Add",
+            "command": "vx:addDirective"
           }
         ]
       }
@@ -31,11 +27,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "vx tools",
+          "label": "VX Tools",
           "submenu": [
             {
-              "label": "vx design",
-              "command": "sourcefetch:fetch"
+              "label": "VX Design",
+              "command": "vx:browserVxdesign"
             }
           ]
         }
