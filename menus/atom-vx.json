@@ -1,0 +1,45 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "VX layout",
+        "command": "sourcefetch:toggle"
+      }
+    ],
+    ".tree-view.full-menu .file, .tree-view.full-menu .directory": [
+      {
+        "label": "VX",
+        "submenu": [
+          {
+            "label": "VX controller add",
+            "command": "git-plus-context:add"
+          },
+          {
+            "label": "VX directive add",
+            "command": "git-plus-context:add-and-commit"
+          },
+          {
+            "label": "VX service add",
+            "command": "git-plus-context:checkout-file"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "vx tools",
+          "submenu": [
+            {
+              "label": "vx design",
+              "command": "sourcefetch:fetch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
