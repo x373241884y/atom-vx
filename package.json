@@ -1,21 +1,18 @@
 {
   "name": "atom-vx",
   "main": "./lib/atom-vx",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "vx:toggle"
+  },
   "repository": "https://github.com/atom/atom-vx",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
-  },
-  "consumedServices": {
-    "minimap": {
-      "versions": {
-        "1.0.0": "consumeMinimapServiceV1"
-      }
-    }
+    "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "event-kit": ">= 0.7.2"
   }
 }

@@ -12,11 +12,11 @@
         "submenu": [
           {
             "label": "VX Controller Add",
-            "command": "vx:addController"
+            "command": "vx:add-controller"
           },
           {
             "label": "VX Directive Add",
-            "command": "vx:addDirective"
+            "command": "vx:add-directive"
           }
         ]
       }
@@ -31,7 +31,7 @@
           "submenu": [
             {
               "label": "VX Design",
-              "command": "vx:browserVxdesign"
+              "command": "vx:browser-vxdesign"
             }
           ]
         }
