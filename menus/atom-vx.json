@@ -4,6 +4,14 @@
       {
         "label": "VX Layout",
         "command": "vx:browser-vxdesign"
+      },
+      {
+        "label": "VX web view toggle",
+        "command": "vx:web-view-toggle"
+      },
+      {
+        "label": "VX web view reload",
+        "command": "vx:web-view-reload"
       }
     ],
     ".tree-view.full-menu .file, .tree-view.full-menu .directory": [
@@ -30,8 +38,12 @@
           "label": "VX Tools",
           "submenu": [
             {
-              "label": "VX Design",
-              "command": "vx:browser-vxdesign"
+              "label": "VX web view toggle",
+              "command": "vx:web-view-toggle"
+            },
+            {
+              "label": "VX web view reload",
+              "command": "vx:web-view-reload"
             }
           ]
         }
