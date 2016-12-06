@@ -5,14 +5,13 @@
   "description": "A short description of your package",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": "vx:toggle"
-  },
   "repository": "https://github.com/atom/atom-vx",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-space-pen-views": "^2.1.1",
+    "fs-plus": "^2.3.0"
   }
 }

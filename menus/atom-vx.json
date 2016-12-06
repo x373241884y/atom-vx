@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "VX layout",
-        "command": "sourcefetch:toggle"
+        "label": "VX Layout",
+        "command": "vx:browser-vxdesign"
       }
     ],
     ".tree-view.full-menu .file, .tree-view.full-menu .directory": [
