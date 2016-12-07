@@ -1,9 +1,7 @@
 @import "octicon-mixins";
 
-iframe
-{
-    position: fixed;
-
+iframe {
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -14,4 +12,40 @@ iframe
 
     border: 0 solid transparent;
     outline: none;
+}
+
+.web-view {
+
+}
+
+.web-view .web-view-body {
+
+}
+
+.web-view .web-view-toolbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    background: lightblue;
+    border: 1px solid lightgray;
+    outline: none;
+    font-size: 13px;
+}
+
+.web-view .web-view-toolbar .tool-items {
+    line-height: 30px;
+    font-size: 13px;
+    border-right: 1px solid darkblue;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.web-view .web-view-toolbar .tool-items:hover {
+    background-color: cornflowerblue;
+}
+
+.web-view .web-view-toolbar .tool-items.active {
+    background-color: dodgerblue;
 }
