@@ -2,15 +2,23 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "VX Layout",
-        "command": "vx:browser-vxdesign"
+        "label": "VX web home",
+        "command": "vx:webview-home"
       },
       {
-        "label": "VX web view toggle",
-        "command": "vx:web-view-toggle"
+        "label": "VX web layout2",
+        "command": "vx:webview-layout2"
       },
       {
-        "label": "VX web view reload",
+        "label": "VX web layout3",
+        "command": "vx:webview-layout3"
+      },
+      {
+        "label": "VX web vxdesign",
+        "command": "vx:webview-vxdesign"
+      },
+      {
+        "label": "VX web reload",
         "command": "vx:web-view-reload"
       }
     ],
@@ -38,11 +46,19 @@
           "label": "VX Tools",
           "submenu": [
             {
-              "label": "VX web view toggle",
-              "command": "vx:web-view-toggle"
+              "label": "VX web home",
+              "command": "vx:webview-home"
             },
             {
-              "label": "VX web view reload",
+              "label": "VX web layout",
+              "command": "vx:webview-layout"
+            },
+            {
+              "label": "VX web layout",
+              "command": "vx:webview-vxdesign"
+            },
+            {
+              "label": "VX web reload",
               "command": "vx:web-view-reload"
             }
           ]
