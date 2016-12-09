@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "VX web home",
-        "command": "vx:webview-home"
+        "label": "window reload",
+        "command": "window:reload"
       },
       {
         "label": "VX web layout2",
@@ -27,12 +27,16 @@
         "label": "VX",
         "submenu": [
           {
-            "label": "VX Controller Add",
+            "label": "New Controller",
             "command": "vx:add-controller"
           },
           {
-            "label": "VX Directive Add",
+            "label": "New Directive",
             "command": "vx:add-directive"
+          },
+          {
+            "label": "Open terminal",
+            "command": "vx:open-terminal"
           }
         ]
       }
@@ -43,8 +47,8 @@
       "label": "VX",
       "submenu": [
         {
-          "label": "VX web home",
-          "command": "vx:webview-home"
+          "label": "window reload",
+          "command": "window:reload"
         },
         {
           "label": "VX web layout2",
