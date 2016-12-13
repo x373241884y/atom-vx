@@ -18,7 +18,7 @@
         "command": "vx:webview-vxdesign"
       },
       {
-        "label": "run server:3000",
+        "label": "Run Server:3000",
         "command": "vx-server:start-3000"
       },
       {
@@ -45,6 +45,26 @@
           {
             "label": "Open terminal",
             "command": "vx:open-terminal"
+          },
+          {
+            "label": "Start on port 3000",
+            "command": "vx-server:start-3000"
+          },
+          {
+            "label": "Start on port 4000",
+            "command": "vx-server:start-4000"
+          },
+          {
+            "label": "Start on port 5000",
+            "command": "vx-server:start-5000"
+          },
+          {
+            "label": "Start on port 8000",
+            "command": "vx-server:start-8000"
+          },
+          {
+            "label": "Start on port 9000",
+            "command": "vx-server:start-9000"
           }
         ]
       }
@@ -67,20 +87,11 @@
           "command": "vx:webview-layout3"
         },
         {
-          "label": "VX web vxdesign",
-          "command": "vx:webview-vxdesign"
-        },
-        {
           "label": "VX web reload",
           "command": "vx:web-view-reload"
-        }
-      ]
-    },
-    {
-      "label": "Packages",
-      "submenu": [
+        },
         {
-          "label": "vx Server",
+          "label": "VX http server",
           "submenu": [
             {
               "label": "Start on port 3000",
