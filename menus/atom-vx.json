@@ -18,6 +18,10 @@
         "command": "vx:webview-vxdesign"
       },
       {
+        "label": "run server:3000",
+        "command": "vx-server:start-3000"
+      },
+      {
         "label": "VX web reload",
         "command": "vx:web-view-reload"
       }
