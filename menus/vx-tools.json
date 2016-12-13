@@ -1,0 +1,33 @@
+{
+    "context-menu": {
+        "atom-text-editor": [{
+            "label": "Toggle vx-tools",
+            "command": "vx-tools:toggle"
+        }]
+    },
+    "menu": [{
+        "label": "VX-Tools",
+        "submenu": [{
+            "label": "欢迎页",
+            "command": "vx-tools:vx-welcome"
+        }, {
+            "label": "VX-API",
+            "submenu": [{
+                "label": "核心API",
+                "command": "vx-tools:vx-api-core"
+            }, {
+                "label": "组件API",
+                "command": "vx-tools:vx-api-component"
+            }, {
+                "label": "扩展API",
+                "command": "vx-tools:vx-api-extra"
+            }]
+        }, {
+            "label": "VX-Design",
+            "command": "vx-tools:vx-design"
+        }, {
+            "label": "帮助文档",
+            "command": "vx-tools:vx-help"
+        }]
+    }]
+}
