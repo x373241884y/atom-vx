@@ -18,8 +18,37 @@
         "command": "vx:webview-vxdesign"
       },
       {
-        "label": "Run Server:3000",
-        "command": "vx-server:start-3000"
+        "label": "Run Server",
+        "submenu": [
+          {
+            "label": "start port:3000",
+            "command": "vx-server:start-3000"
+          },
+          {
+            "label": "start port:4000",
+            "command": "vx-server:start-4000"
+          },
+          {
+            "label": "start port:5000",
+            "command": "vx-server:start-5000"
+          },
+          {
+            "label": "start port:8000",
+            "command": "vx-server:start-8000"
+          },
+          {
+            "label": "start port:9000",
+            "command": "vx-server:start-9000"
+          },
+          {
+            "label": "stop all server",
+            "command": "vx-server:stop-all"
+          },
+          {
+            "label": "config proxy server",
+            "command": "vx-server:config-proxy"
+          }
+        ]
       },
       {
         "label": "VX web reload",
@@ -47,6 +76,19 @@
             "command": "vx:open-terminal"
           },
           {
+            "label": "VX web layout2",
+            "command": "vx:webview-layout2"
+          },
+          {
+            "label": "VX web layout3",
+            "command": "vx:webview-layout3"
+          }
+        ]
+      },
+      {
+        "label": "VX http server",
+        "submenu": [
+          {
             "label": "Start on port 3000",
             "command": "vx-server:start-3000"
           },
@@ -65,6 +107,14 @@
           {
             "label": "Start on port 9000",
             "command": "vx-server:start-9000"
+          },
+          {
+            "label": "stop all server",
+            "command": "vx-server:stop-all"
+          },
+          {
+            "label": "config proxy server",
+            "command": "vx-server:config-proxy"
           }
         ]
       }
@@ -112,6 +162,14 @@
             {
               "label": "Start on port 9000",
               "command": "vx-server:start-9000"
+            },
+            {
+              "label": "stop all server",
+              "command": "vx-server:stop-all"
+            },
+            {
+              "label": "config proxy server",
+              "command": "vx-server:config-proxy"
             }
           ]
         }

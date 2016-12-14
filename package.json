@@ -2,7 +2,7 @@
   "name": "atom-vx",
   "main": "./lib/main",
   "version": "0.0.1",
-  "description": "A short description of your package",
+  "description": "A atom plugin for vx develop",
   "keywords": [],
   "repository": "https://github.com/atom/atom-vx",
   "license": "MIT",
@@ -16,12 +16,5 @@
   "devDependencies": {
     "live-server": "^1.1.0",
     "loophole": "^1.1.0"
-  },
-  "configSchema": {
-    "showVxWelcome": {
-      "type": "boolean",
-      "default": true,
-      "description": "Show VX welcome panes with useful information when opening a new Atom window."
-    }
   }
 }
