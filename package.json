@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "A atom plugin for vx develop",
   "keywords": [],
-  "repository": "https://github.com/atom/atom-vx",
+  "repository": "https://github.com/x373241884y/atom-vx",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
