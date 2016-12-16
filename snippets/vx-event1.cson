@@ -1,0 +1,55 @@
+'.text.html.basic':
+#v-form
+  '用于非form标签可嵌套':
+    'prefix': 'v-form'
+    'body': """
+                v-form="${1:string}"
+            """
+#v-hide
+  '隐藏部分DOM元素':
+    'prefix': 'v-hide'
+    'body': """
+                v-hide="${1:expression}"
+            """
+#v-show
+  '显示部分DOM元素':
+    'prefix': 'v-show'
+    'body': """
+                v-show="${1:expression}"
+            """
+#v-include
+  '包含外部HTML碎片页':
+    'prefix': 'v-include'
+    'body': """
+               v-include="${1:string}" [onload="${2:string}" autoscroll="${3:string}]"
+            """
+#v-include as tag
+  '包含外部HTML碎片页 ':
+    'prefix': 'v-include(as tag)'
+    'body': """
+               <v-include src="${1:string}" [onload="${2:string}" autoscroll="${3:string}"]></v-include>
+            """
+#v-include for class
+  '包含外部HTML碎片页面  ':
+    'prefix': 'v-include(for class)'
+    'body': """
+                class="v-include: ${1:string}; [onload: ${2:string};] [autoscroll:${3:string};]"
+            """
+#v-init
+  '初始化时执行表达式':
+    'prefix': 'v-init'
+    'body': """
+               v-init="${1:expression}"
+            """
+#v-list
+  '将字符串转换为数组':
+    'prefix': 'v-list'
+    'body': """
+               v-list="${1:expression}"
+            """
+#v-model
+  'VX数据双向绑定':
+    'prefix': 'v-model'
+    'body': """
+               v-model="${1:string}"
+            """

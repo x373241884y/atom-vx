@@ -1,0 +1,119 @@
+'.text.html.basic':
+#v-click
+  '单击事件':
+    'prefix': 'v-click'
+    'body': """
+            v-click="${1:expression}"
+            """
+
+#v-dblclick
+  '双击事件':
+    'prefix': 'v-dblclick'
+    'body': """
+            v-dblclick="${1:expression}"
+            """
+
+#v-mousedown
+  '鼠标按下':
+    'prefix': 'v-mousedown'
+    'body': """
+            v-mousedown="${1:expression}"
+            """
+
+#v-mouseup
+  '鼠标松开':
+    'prefix': 'v-mouseup'
+    'body': """
+            v-mouseup="${1:expression}"
+            """
+
+#v-mouseover
+  '鼠标在元素上方':
+    'prefix': 'v-mouseover'
+    'body': """
+            v-mouseover="${1:expression}"
+            """
+
+#v-mouseout
+  '鼠标离开':
+    'prefix': 'v-mouseout'
+    'body': """
+            v-mouseout="${1:expression}"
+            """
+
+#v-mousemove
+  '在元素中移动':
+    'prefix': 'v-mousemove '
+    'body': """
+            v-mousemove="${1:expression}"
+            """
+
+#v-mouseenter
+  '穿过元素':
+    'prefix': 'v-mouseenter '
+    'body': """
+            v-mouseenter="${1:expression}"
+            """
+
+#v-mouseleave
+  '指针离开':
+    'prefix': 'v-mouseleave'
+    'body': """
+            v-mouseleave="${1:expression}"
+            """
+
+#v-keydown
+  '按钮被按下':
+    'prefix': 'v-keydown'
+    'body': """
+            v-keydown="${1:expression}"
+            """
+
+#v-keyup
+  '按钮被松开':
+    'prefix': 'v-keyup'
+    'body': """
+            v-keyup="${1:expression}"
+            """
+
+#v-keypress
+  '按键被按下并释放':
+    'prefix': 'v-keypress'
+    'body': """
+            v-keypress="${1:expression}"
+            """
+
+#v-focus
+  '获得焦点':
+    'prefix': 'v-focus'
+    'body': """
+            v-focus="${1:expression}"
+            """
+
+#v-blur
+  '失去焦点':
+    'prefix': 'v-blur'
+    'body': """
+            v-blur="${1:expression}"
+            """
+
+#v-copy
+  '复制':
+    'prefix': 'v-copy'
+    'body': """
+            v-copy="${1:expression}"
+            """
+
+#v-cut
+  '剪切':
+    'prefix': 'v-cut'
+    'body': """
+            v-cut="${1:expression}"
+            """
+
+#v-paste
+  '粘贴':
+    'prefix': 'v-paste'
+    'body': """
+            v-paste="${1:expression}"
+            """

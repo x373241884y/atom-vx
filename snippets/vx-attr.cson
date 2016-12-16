@@ -1,0 +1,91 @@
+'.text.html.basic':
+#v-minlength
+  '最小长度':
+    'prefix': 'v-minlength'
+    'body': """
+            v-minlength="${1:number}"
+            """
+#v-maxlength
+  '最大长度':
+    'prefix': 'v-maxlength'
+    'body': """
+            v-maxlength="${1:number}"
+            """
+
+#v-pattern
+  '正则匹配':
+    'prefix': 'v-pattern'
+    'body': """
+            v-pattern="${1:string}"
+            """
+
+#v-val
+  '数据校验':
+    'prefix': 'v-val'
+    'body': """
+            v-val="${1:string}"
+            """
+#v-true-value
+  '选中时对应的值':
+    'prefix': 'v-true-value'
+    'body': """
+            v-true-value="${1:string}"
+            """
+
+#v-false-value
+  '取消选中时对应的值':
+    'prefix': 'v-false-value'
+    'body': """
+            v-false-value="${1:string}"
+            """
+
+#v-options
+  '循环选项':
+    'prefix': 'v-options'
+    'body': """
+            v-options="${1:options-name} in ${2:expression}"
+            """
+
+#v-view
+  '碎片页入口':
+    'prefix': 'v-view'
+    'body': """
+            v-view
+            """
+
+#v-if
+  '是否移除元素':
+    'prefix': 'v-if'
+    'body': """
+            v-if="${1:expression}"
+            """
+#v-disabled
+  '字段是否被禁用':
+    'prefix': 'v-disabled'
+    'body': """
+            v-disabled="${1:expression}"
+            """
+#v-multiple
+  '多选':
+    'prefix': 'v-multiple'
+    'body': """
+            v-multiple="${1:expression}"
+            """
+#v-selected
+  '被选中':
+    'prefix': 'v-selected'
+    'body': """
+            v-selected="${1:expression}"
+            """
+#v-readonly
+  '只读':
+    'prefix': 'v-readonly'
+    'body': """
+            v-readonly="${1:expression}"
+            """
+#v-required
+  '非空验证':
+    'prefix': 'v-required'
+    'body': """
+            v-required="${1:expression}"
+            """

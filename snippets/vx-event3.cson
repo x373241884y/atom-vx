@@ -1,0 +1,75 @@
+'.text.html.basic':
+ # v-non-bindable
+  '抑制元素内的其他VX指令':
+    'prefix': 'v-non-bindable'
+    'body': """
+            v-non-bindable
+            """
+ # v-pluralize
+  '根据本地化规则显示信息':
+    'prefix': 'v-pluralize'
+    'body': """
+                <v-pluralize count="personCount"
+                             when="{'0': 'Nobody is viewing.',
+                                 'one': '1 person is viewing.',
+                                 'other': '{} people are viewing.'}">
+            </v-pluralize>
+                """
+
+ # v-repeat
+  '处理循环数据结构':
+    'prefix': 'v-repeat'
+    'body': """
+            v-repeat="${1:row} in ${2:expression}"
+            """
+ # v-style
+  '设置元素的css/style':
+    'prefix': 'v-style'
+    'body': """
+            v-style="${1:expression}"
+            """
+ # v-srcset
+  '提供多个不同分辨图像':
+    'prefix': 'v-srcset'
+    'body': """
+             v-srcset="${1:expression}"
+            """
+ # v-submit
+  ' 为提交事件绑定表达式':
+    'prefix': 'v-submit'
+    'body': """
+            v-submit="${1:expression}"
+            """
+ # v-switch
+  'VX的条件指令':
+    'prefix': 'v-switch'
+    'body': """
+            v-switch="${1:expression}"
+            """
+ # v-switch-default
+  'VX的条件指令 ':
+    'prefix': 'v-switch-default'
+    'body': """
+            v-switch-default="${1:value}"
+            """
+ # v-switch-when
+  'VX的条件指令  ':
+    'prefix': 'v-switch-when'
+    'body': """
+            v-switch-when="${1:value}"
+            """
+ # v-value
+  '绑定表达式计算值':
+    'prefix': 'v-value'
+    'body': """
+            v-value="${1:expression}"
+            """
+
+
+".source.js, .source.jsx, .source.ts":
+# v-transclude
+ '用于插入转换后的DOM':
+   'prefix': 'v-transclude'
+   'body': """
+           v-transclude
+           """

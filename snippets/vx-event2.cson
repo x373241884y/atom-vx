@@ -1,0 +1,98 @@
+# ".text.html.basic":
+#   "vController指令VX引入应用逻辑的手段，应用逻辑就是Controller，具体参考VX的MVC章节；vController指令会产生新的scope。
+# 　　优先级：0
+# 　　作用范围：A":
+#     "prefix": "v-controller"
+
+
+".text.html.basic":
+#v-src
+  '任意含{{}}的字符串URL':
+    'prefix': 'v-src'
+    'body': """
+            v-src="{{${1:template}}}"
+            """
+#v-href
+  '链接任意含{{}}的字符串':
+    'prefix': 'v-href'
+    'body': """
+            v-href="{{${1:template}}}"
+            """
+#v-app
+  '用于VX自启动':
+    'prefix': 'v-app'
+    'body': """
+            v-app="${1:module}"
+            """
+#v-bind
+  '数据绑定':
+    'prefix': 'v-bind'
+    'body': """
+            v-bind="${1:expression}"
+            """
+#v-bind(for class)
+  '类名绑定表达式':
+    'prefix': 'v-bind(for class)'
+    'body': """
+            class="v-bind:${1:expression}"
+            """
+#v-bindHtml
+  'innerHTML到元素中':
+    'prefix': 'v-bind-html'
+    'body': """
+            v-bind-html="${1:expression}"
+            """
+#v-bindTemplate
+  '用{{}}替换元素的文本':
+    'prefix': 'v-bind-template'
+    'body': """
+            v-bind-template="{{${1:expression}}}"
+            """
+#v-change
+  '监控同元素v-model变化':
+    'prefix': 'v-change'
+    'body': """
+            v-change="${1:expression}"
+            """
+#v-checked
+  '单/复选框的选中状态':
+    'prefix': 'v-checked'
+    'body': """
+            v-checked="${1:expression}"
+            """
+#v-class
+  '动态为元素添加class':
+    'prefix': 'v-class'
+    'body': """
+            v-class="${1:expression}"
+            """
+#v-classEven
+  'v-repeat单数行class':
+    'prefix': 'v-class-even'
+    'body': """
+            v-class-even="${1:expression}"
+            """
+#v-classOdd
+  'v-repeat双数行class':
+    'prefix': 'v-class-odd'
+    'body': """
+            v-class-odd="${1:expression}"
+            """
+#v-cloak
+  '阻止显示未编译的内容':
+    'prefix': 'v-cloak'
+    'body': """
+            v-cloak
+            """
+#v-controller
+  '引入应用逻辑':
+    'prefix': 'v-controller'
+    'body': """
+             v-controller="${1:expression}"
+            """
+#v-csp
+  '为html元素启用CSP':
+    'prefix': 'v-csp'
+    'body': """
+                v-csp
+            """

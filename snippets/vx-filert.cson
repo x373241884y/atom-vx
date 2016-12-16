@@ -1,0 +1,55 @@
+'.text.html.basic':
+  #currency
+    '格式化数字成金额':
+      'prefix': 'currency'
+      'body': """
+                  currency[${1:symbol}]
+              """
+  #date
+    '指定格式处理日期':
+      'prefix': 'date'
+      'body': """
+                 data[${1:format}]
+              """
+  #filter
+    '对数组进行过滤':
+      'prefix': 'filter'
+      'body': """
+                 filter:${1:expression}
+              """
+  #json
+    'JS对象转换为JSON串':
+      'prefix': 'json'
+      'body': """
+                 json
+              """
+  #limitTo
+    '返回指定数量的数组元素':
+      'prefix': 'limitTo'
+      'body': """
+                 limitTo:${1:limit}
+              """
+  #lowercase
+    '将字符串转为小写':
+      'prefix': 'lowercase'
+      'body': """
+                 lowercase
+              """
+  #number
+    '格式化数字':
+      'prefix': 'number'
+      'body': """
+                 number[:fractionSize]
+              """
+  #orderBy
+    '数组排序':
+      'prefix': 'orderBy'
+      'body': """
+                 orderBy: expression[${1:reverse}]
+              """
+  #uppercase
+    '将字符串转为大写':
+      'prefix': 'uppercase'
+      'body': """
+                 uppercase(${1:string})
+              """
