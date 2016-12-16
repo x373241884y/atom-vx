@@ -1,4 +1,4 @@
-'.text.html.basic':
+'.text.html .meta.tag:not(.entity.other.attribute-name, .punctuation.definition.tag.begin, .source, .entity.name.tag, .string, .invalid.illegal.incomplete.html)':
 #v-minlength
   '最小长度':
     'prefix': 'v-minlength'

@@ -1,4 +1,4 @@
-'.text.html.basic':
+'.text.html .meta.tag:not(.entity.other.attribute-name, .punctuation.definition.tag.begin, .source, .entity.name.tag, .string, .invalid.illegal.incomplete.html)':
   #currency
     '格式化数字成金额':
       'prefix': 'currency'

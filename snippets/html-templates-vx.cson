@@ -1,0 +1,46 @@
+".text.html:not(.meta.tag)":
+  "angular scaffold":
+    "prefix": "vindex"
+    "body": """
+      <html v-app>
+      <head>
+        <script src="lib/min/jquery.min.js"></script>
+        <script src="lib/min/vx2.min.js"></script>
+      </head>
+      <body>
+       $2
+      </body>
+      </html>
+    """
+  "vTemplate script tag":
+    "prefix": "vst"
+    "body": """
+      <script type="text/v-template" id="$1">
+        $2
+      </script>
+    """
+  "vInclude":
+    "prefix": "vinc"
+    "body": """
+      <v-include src="$1" ${2: onload="$3"} ${4: autoscroll="$5"}></v-include>
+    """
+  "vPluralize":
+    "prefix": "vplural"
+    "body": """
+      <v-pluralize count="$1" when="$2" ${3: offset="$4"}></v-pluralize>
+    """
+  "vSwitch":
+    "prefix": "vswitch"
+    "body": """
+      <v-switch on="$1">$2</v-switch>
+    """
+  "script template":
+    "prefix": "vtmpl"
+    "body": """
+      <script type="text/v-template">$1</script>
+    """
+  "vView":
+    "prefix": "vview"
+    "body": """
+      <v-view ${1: onload="$2"} ${3: $autoscroll="$4"}></v-view>
+    """

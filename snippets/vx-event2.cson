@@ -1,11 +1,5 @@
-# ".text.html.basic":
-#   "vController指令VX引入应用逻辑的手段，应用逻辑就是Controller，具体参考VX的MVC章节；vController指令会产生新的scope。
-# 　　优先级：0
-# 　　作用范围：A":
-#     "prefix": "v-controller"
 
-
-".text.html.basic":
+".text.html .meta.tag:not(.entity.other.attribute-name, .punctuation.definition.tag.begin, .source, .entity.name.tag, .string, .invalid.illegal.incomplete.html)":
 #v-src
   '任意含{{}}的字符串URL':
     'prefix': 'v-src'
