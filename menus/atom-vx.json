@@ -14,10 +14,6 @@
         "command": "vx:webview-layout3"
       },
       {
-        "label": "VX web vxdesign",
-        "command": "vx:webview-vxdesign"
-      },
-      {
         "label": "Run Server",
         "submenu": [
           {
@@ -43,16 +39,8 @@
           {
             "label": "stop all server",
             "command": "vx-server:stop-all"
-          },
-          {
-            "label": "config proxy server",
-            "command": "vx-server:config-proxy"
           }
         ]
-      },
-      {
-        "label": "VX web reload",
-        "command": "vx:web-view-reload"
       }
     ],
     ".tree-view.full-menu .file, .tree-view.full-menu .directory": [
@@ -111,10 +99,6 @@
           {
             "label": "stop all server",
             "command": "vx-server:stop-all"
-          },
-          {
-            "label": "config proxy server",
-            "command": "vx-server:config-proxy"
           }
         ]
       }
@@ -135,10 +119,6 @@
         {
           "label": "VX web layout3",
           "command": "vx:webview-layout3"
-        },
-        {
-          "label": "VX web reload",
-          "command": "vx:web-view-reload"
         },
         {
           "label": "VX http server",
@@ -166,10 +146,6 @@
             {
               "label": "stop all server",
               "command": "vx-server:stop-all"
-            },
-            {
-              "label": "config proxy server",
-              "command": "vx-server:config-proxy"
             }
           ]
         }
