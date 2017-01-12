@@ -8,3 +8,12 @@ A short description of your package.
 * window
   1. git clone https://github.com/x373241884y/atom-vx
   2. 创建atom-vx的快捷方式,复制到atom的配置文件夹.atom目录上的packages目录下
+
+
+Version history
+---------------
+
+* v0.0.2
+	- Fix the server still have access to the page when stop all server
+* v0.0.1
+	- Initial release

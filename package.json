@@ -1,7 +1,7 @@
 {
   "name": "atom-vx",
   "main": "./lib/main",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A atom plugin for vx develop",
   "keywords": [],
   "repository": "https://github.com/x373241884y/atom-vx",
